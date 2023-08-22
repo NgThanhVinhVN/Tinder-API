@@ -1,0 +1,85 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "module": "commonjs",
+        "paths": {
+            "@": [
+                "./*"
+            ],
+            "@App": [
+                "./app.js"
+            ],
+            "@Connect": [
+                "./connect.js"
+            ],
+            "@Express": [
+                "./express.js"
+            ],
+            "@Config": [
+                "./config.js"
+            ],
+            "@Configs/*": [
+                "./configs/*"
+            ],
+            "@Controllers/*": [
+                "./controllers/*"
+            ],
+            "@HttpControllers/*": [
+                "./controllers/http/*"
+            ],
+            "@SocketControllers/*": [
+                "./controllers/socket/*"
+            ],
+            "@SocketIoControllers/*": [
+                "./controllers/socketIo/*"
+            ],
+            "@EntryControllers/*": [
+                "./controllers/entry/*"
+            ],
+            "@Databases/*": [
+                "./databases/*"
+            ],
+            "@Helpers/*": [
+                "./helpers/*"
+            ],
+            "@Loaders/*": [
+                "./loaders/*"
+            ],
+            "@Middwares/*": [
+                "./middwares/*"
+            ],
+            "@Models/*": [
+                "./models/*"
+            ],
+            "@Plugins/*": [
+                "./plugins/*"
+            ],
+            "@Routers/*": [
+                "./routers/*"
+            ],
+            "@HttpRouters/*": [
+                "./routers/http/*"
+            ],
+            "@SocketRouters/*": [
+                "./routers/socket/*"
+            ],
+            "@SocketIoRouters/*": [
+                "./routers/socketIo/*"
+            ],
+            "@EntryRouters/*": [
+                "./routers/entry/*"
+            ],
+            "@Services/*": [
+                "./services/*"
+            ],
+            "@Utils/*": [
+                "./utils/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "disk"
+    ]
+}
